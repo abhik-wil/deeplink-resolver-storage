@@ -1,0 +1,49 @@
+{
+  "id": "506dcd27-d1fb-49",
+  "createdAt": "2025-01-06T05:50:03.979Z",
+  "updatedAt": "2025-01-06T05:51:43.886Z",
+  "value": {
+    "context": {
+      "ttl": "PT30S",
+      "city": "std:011",
+      "action": "search",
+      "bap_id": {
+        "type": "string",
+        "filler": "pg"
+      },
+      "domain": "std:ONDC:RET10",
+      "bap_uri": {
+        "type": "string",
+        "filler": "pg"
+      },
+      "country": "IND",
+      "timestamp": {
+        "type": "string",
+        "filler": "pg"
+      },
+      "message_id": {
+        "type": "string",
+        "filler": "pg"
+      },
+      "core_version": "1.2.0",
+      "transaction_id": {
+        "type": "string",
+        "filler": "pg"
+      }
+    },
+    "message": {
+      "intent": {
+        "payment": {
+          "@ondc/org/buyer_app_finder_fee_type": "percent",
+          "@ondc/org/buyer_app_finder_fee_amount": 5
+        }
+      }
+    }
+  },
+  "templateId": "63eb89ae-46ce-4a",
+  "name": null,
+  "description": null,
+  "creatorName": null,
+  "qrPdfLink": null,
+  "usecaseStage": "PUBLISHED"
+}
