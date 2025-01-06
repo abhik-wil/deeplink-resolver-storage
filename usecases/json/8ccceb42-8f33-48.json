@@ -1,0 +1,103 @@
+{
+  "id": "8ccceb42-8f33-48",
+  "createdAt": "2025-01-06T09:52:47.569Z",
+  "updatedAt": "2025-01-06T09:53:00.170Z",
+  "value": {
+    "context": {
+      "ttl": "PT30S",
+      "city": {
+        "type": "string",
+        "filler": "pg"
+      },
+      "action": "search",
+      "bap_id": {
+        "type": "string",
+        "filler": "pg"
+      },
+      "bpp_id": "sadf",
+      "domain": "ONDC:RET10",
+      "bap_uri": {
+        "type": "string",
+        "filler": "pg"
+      },
+      "bpp_uri": "asf",
+      "country": {
+        "type": "string",
+        "filler": "pg"
+      },
+      "timestamp": {
+        "type": "string",
+        "filler": "pg"
+      },
+      "message_id": {
+        "type": "string",
+        "filler": "pg"
+      },
+      "core_version": "1.2.0",
+      "transaction_id": {
+        "type": "string",
+        "filler": "pg"
+      }
+    },
+    "message": {
+      "intent": {
+        "payment": {
+          "@ondc/org/buyer_app_finder_fee_type": "percent",
+          "@ondc/org/buyer_app_finder_fee_amount": 5
+        },
+        "provider": {
+          "id": "string",
+          "time": {
+            "days": "string",
+            "label": "string",
+            "range": {
+              "end": "2024-12-26T09:11:21.489Z",
+              "start": "2024-12-26T09:11:21.489Z"
+            },
+            "duration": "string",
+            "schedule": {
+              "times[0]": "2024-12-26T09:11:21.489Z",
+              "frequency": "string",
+              "holidays[0]": "2024-12-26T09:11:21.489Z"
+            },
+            "timestamp": "2024-12-26T09:11:21.489Z"
+          },
+          "rating": 5,
+          "descriptor": {
+            "code": "string",
+            "name": "string",
+            "tags": [
+              {
+                "code": "string",
+                "list": [
+                  {
+                    "code": "string",
+                    "name": "string",
+                    "value": "string",
+                    "display": true
+                  }
+                ],
+                "name": "string",
+                "display": true
+              }
+            ],
+            "audio": "string",
+            "symbol": "string",
+            "3d_render": "string",
+            "images[0]": "string",
+            "long_desc": "string",
+            "short_desc": "string"
+          },
+          "category_id": "string",
+          "@ondc/org/fssai_license_no": "string"
+        }
+      }
+    }
+  },
+  "templateId": "776448fe-406f-4e",
+  "name": "not hello?",
+  "description": "perhaps",
+  "creatorName": "hello",
+  "qrPdfLink": null,
+  "usecaseStage": "PUBLISHED"
+}
