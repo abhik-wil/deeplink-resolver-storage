@@ -1,0 +1,60 @@
+{
+  "id": "70930a99-41f9-4a",
+  "createdAt": "2025-01-07T07:00:58.847Z",
+  "updatedAt": "2025-01-07T07:01:01.507Z",
+  "value": {
+    "context": {
+      "ttl": "PT30S",
+      "city": {
+        "type": "string",
+        "filler": "pg"
+      },
+      "action": "search",
+      "bap_id": {
+        "type": "string",
+        "filler": "pg"
+      },
+      "domain": "ONDC:RET12",
+      "bap_uri": {
+        "type": "string",
+        "filler": "pg"
+      },
+      "country": {
+        "type": "string",
+        "filler": "pg"
+      },
+      "timestamp": {
+        "type": "string",
+        "filler": "pg"
+      },
+      "message_id": {
+        "type": "string",
+        "filler": "pg"
+      },
+      "core_version": "1.2.0",
+      "transaction_id": {
+        "type": "string",
+        "filler": "pg"
+      }
+    },
+    "message": {
+      "intent": {
+        "item": {
+          "descriptor": {
+            "name": "BodyShop"
+          }
+        },
+        "payment": {
+          "@ondc/org/buyer_app_finder_fee_type": "percent",
+          "@ondc/org/buyer_app_finder_fee_amount": 5
+        }
+      }
+    }
+  },
+  "templateId": "902b7682-02e2-45",
+  "name": "",
+  "description": "",
+  "creatorName": "",
+  "qrPdfLink": null,
+  "usecaseStage": "PUBLISHED"
+}
