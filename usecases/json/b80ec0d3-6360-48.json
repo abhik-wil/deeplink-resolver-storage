@@ -1,0 +1,57 @@
+{
+  "id": "b80ec0d3-6360-48",
+  "createdAt": "2025-01-07T09:40:03.723Z",
+  "updatedAt": "2025-01-07T09:40:05.777Z",
+  "value": {
+    "context": {
+      "ttl": "PT30S",
+      "city": {
+        "type": "string",
+        "filler": "pg"
+      },
+      "action": "search",
+      "bap_id": {
+        "type": "string",
+        "filler": "pg"
+      },
+      "bpp_id": "bpp.dummy.id",
+      "domain": "ONDC:RET10",
+      "bap_uri": {
+        "type": "string",
+        "filler": "pg"
+      },
+      "bpp_uri": "https://bpp.dummy.uri",
+      "country": {
+        "type": "string",
+        "filler": "pg"
+      },
+      "timestamp": {
+        "type": "string",
+        "filler": "pg"
+      },
+      "message_id": {
+        "type": "string",
+        "filler": "pg"
+      },
+      "core_version": "1.2.0",
+      "transaction_id": {
+        "type": "string",
+        "filler": "pg"
+      }
+    },
+    "message": {
+      "intent": {
+        "payment": {
+          "@ondc/org/buyer_app_finder_fee_type": "percent",
+          "@ondc/org/buyer_app_finder_fee_amount": 5
+        }
+      }
+    }
+  },
+  "templateId": "5423b07b-c392-4a",
+  "name": "",
+  "description": "",
+  "creatorName": "",
+  "qrPdfLink": null,
+  "usecaseStage": "PUBLISHED"
+}
