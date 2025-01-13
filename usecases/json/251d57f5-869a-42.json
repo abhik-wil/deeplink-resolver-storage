@@ -1,0 +1,23 @@
+{
+  "context": {
+    "ttl": "PT30S",
+    "city": "std:011",
+    "action": "search",
+    "bap_id": "{{context.bap_id}}",
+    "domain": "ONDC:RET10",
+    "bap_uri": "{{context.bap_uri}}",
+    "country": "IND",
+    "timestamp": "{{context.timestamp}}",
+    "message_id": "{{context.message_id}}",
+    "core_version": "1.2.0",
+    "transaction_id": "{{context.transaction_id}}"
+  },
+  "message": {
+    "intent": {
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": 5
+      }
+    }
+  }
+}
