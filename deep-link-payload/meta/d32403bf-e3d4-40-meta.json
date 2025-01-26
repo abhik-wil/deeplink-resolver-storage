@@ -1,0 +1,12 @@
+{
+  "id": "d32403bf-e3d4-40",
+  "createdAt": "2025-01-26T05:08:13.636Z",
+  "updatedAt": "2025-01-26T05:11:16.389Z",
+  "templateId": "9429d7f5-d1e0-4c",
+  "name": "asf",
+  "description": "asdf",
+  "creatorName": "first-test",
+  "qrPdfLink": null,
+  "usecaseDeepLink": "beckn://deeplink.resolver.ondc.org.ret12.ondc/d32403bf-e3d4-40",
+  "usecaseStage": "PUBLISHED"
+}
